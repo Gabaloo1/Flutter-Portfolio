@@ -30,7 +30,7 @@ final String kCard1Descrption =
 final String kCard2Descrption =
     'Creating an environment for the learning and application of thrilling concepts in Artificial Intelligence.';
 final String kCard3Descrption =
-    'Assisting in the foundational learning of Python for the largest Computer Science class on campus.';
+    'Assisting in the foundational learning of Python for the largest Computer Science class at MSU.';
 final String kCard4Descrption =
     '(Will be) Working as a Software Engineer Intern in the Experiences & Devices Team at Microsoft.';
 final String kCard5Descrption =
