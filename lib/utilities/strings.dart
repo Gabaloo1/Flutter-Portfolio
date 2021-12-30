@@ -64,9 +64,9 @@ final String kEmail = 'gabrielsotelojusto6@gmail.com';
 
 //final Strings for Website Icon
 final String kIconFirstLetter =
-    '  G  '; //maintain the space as in this string to obtain a circular shape of Icon
+    '  L  '; //maintain the space as in this string to obtain a circular shape of Icon
 final String kIconRemainingLetters =
-    ' Sotelo'; //add remaining letters here, follow the spacing as in String at start
+    ' Cabrera'; //add remaining letters here, follow the spacing as in String at start
 
 //final Strings for Footer present in contact_page.dart
 final String kRightsReserved = '© Khurram 2021. All rights reserved.';
