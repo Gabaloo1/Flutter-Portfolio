@@ -32,12 +32,17 @@ const RESOURCES = {
 "canvaskit/profiling/canvaskit.js": "f3bfccc993a1e0bfdd3440af60d99df4",
 "canvaskit/profiling/canvaskit.wasm": "a9610cf39260f60fbe7524a785c66101",
 "favicon.png": "5dcef449791fa27946b3d35ad8803796",
-"icons/Icon-192.png": "ac9a721a12bbc803b44f645561ecb1e1",
-"icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
-"index.html": "c1d6bb979a8ae6b689aed7a9a7664b48",
-"/": "c1d6bb979a8ae6b689aed7a9a7664b48",
+"icons/android-chrome-192x192.png": "20c22bfe0fdffd7ec6c67ab7df624c54",
+"icons/android-chrome-512x512.png": "fbdc356736c1a223e60bf0ed4cd408e9",
+"icons/apple-touch-icon.png": "3192158deb7afe66349fab2aa7c7058b",
+"icons/favicon-16x16.png": "be6e1b168578dc7ae67be6ca949bb42b",
+"icons/favicon-32x32.png": "e7c00ed108e837ae7a869c83a2d9e7cf",
+"icons/favicon.ico": "1473e7b2b829fa75e49bae78449a1375",
+"index.html": "0d2ad1fe44aa47f68497e8b2f0805fed",
+"/": "0d2ad1fe44aa47f68497e8b2f0805fed",
+"logo.png": "20c22bfe0fdffd7ec6c67ab7df624c54",
 "main.dart.js": "b887000a184e61dc3c788cdae1e23989",
-"manifest.json": "5498590bb50dd5bb5cc8a317e489bed0",
+"manifest.json": "7259bda3c9254296243f388be9f260de",
 "version.json": "fb8d4678888024cd5f83d8522bb3a722"
 };
 
