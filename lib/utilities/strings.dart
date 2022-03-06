@@ -47,15 +47,15 @@ final String kCvUrl =
     'https://drive.google.com/file/d/1HC7TnqW93Nabjbjo6PLwhYuyiFR70AX2/view?usp=sharing';
 
 //final Strings for portfolio page
-final String kMySelectedWork = 'My Experience';
-final String kViewAllWork = 'Some of my Projects';
+final String kMySelectedWork = 'My Work';
+final String kViewAllWork = 'See my Projects';
 final String kViewAllWorkLink =
     'http://gabrielsotelo.pythonanywhere.com/'; //set up any url to demonstrate all your work, I am setting my github url
 
 //add optimized images for better load time and smooth scroll
-final String kWorkImageUrl1 = 'lib/images/calender.png';
+final String kWorkImageUrl1 = 'lib/images/gabriel01.jpg';
 final String kWorkImageUrl2 = 'lib/images/crypto.png';
-final String kWorkImageUrl3 = 'lib/images/chat.png';
+final String kWorkImageUrl3 = 'lib/images/gabriel02.jpg';
 final String kWorkImageUrl4 = 'lib/images/blog.png';
 
 //final String for Contact Page

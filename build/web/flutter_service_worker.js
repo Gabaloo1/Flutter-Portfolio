@@ -3,7 +3,7 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
-  "assets/AssetManifest.json": "13806f731d858ff79a96c2d283b3247c",
+  "assets/AssetManifest.json": "44bb50dbb1acfcfb16f95f4fe65b8366",
 "assets/FontManifest.json": "dc3d03800ccca4601324923c0b1d6d57",
 "assets/fonts/MaterialIcons-Regular.otf": "4e6447691c9509f7acdbf8a931a85ca1",
 "assets/lib/icons/github_2x.png": "6401c06a4431eb5619083e6a1783ed63",
@@ -18,6 +18,8 @@ const RESOURCES = {
 "assets/lib/images/chat.png": "5f0bb2ecc91102627491ead9afa2efdf",
 "assets/lib/images/core.png": "cc38271f248bb7a8b76b61a0c95cb5ca",
 "assets/lib/images/crypto.png": "18095b8133dbe48b6910ce992df44565",
+"assets/lib/images/gabriel01.jpg": "bca793ea53c9a516f58b583d054a25ae",
+"assets/lib/images/gabriel02.jpg": "99b7da6f66ec179d8907ed50a42d00d0",
 "assets/lib/images/microsoft.png": "3d6a2ad56bc3403c5cfcc3efe09b741b",
 "assets/lib/images/myImage.jpg": "ebc7064777da876f095541e018b6e39d",
 "assets/lib/images/news.png": "ba5d13e470404021307b1ed3fb81c4c7",
@@ -32,9 +34,9 @@ const RESOURCES = {
 "favicon.png": "5dcef449791fa27946b3d35ad8803796",
 "icons/Icon-192.png": "ac9a721a12bbc803b44f645561ecb1e1",
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
-"index.html": "0e09ca5ca13325ec69cf0f566d7e3d04",
-"/": "0e09ca5ca13325ec69cf0f566d7e3d04",
-"main.dart.js": "019459d5f6a9225f79e29f5726720a5d",
+"index.html": "c1d6bb979a8ae6b689aed7a9a7664b48",
+"/": "c1d6bb979a8ae6b689aed7a9a7664b48",
+"main.dart.js": "b887000a184e61dc3c788cdae1e23989",
 "manifest.json": "5498590bb50dd5bb5cc8a317e489bed0",
 "version.json": "fb8d4678888024cd5f83d8522bb3a722"
 };

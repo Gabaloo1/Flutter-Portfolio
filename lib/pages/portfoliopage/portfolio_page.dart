@@ -46,10 +46,10 @@ class _DesktopPortfolioPageState extends State<DesktopPortfolioPage> {
                 SizedBox(
                   height: 60,
                 ),
-                workShowCaseImages(0.6 * height, 0.4 * width, kWorkImageUrl2),
-                SizedBox(
-                  height: 60,
-                ),
+                // workShowCaseImages(0.6 * height, 0.4 * width, kWorkImageUrl2),
+                // SizedBox(
+                //   height: 60,
+                // ),
                 viewAllWorkButtonWidget()
               ]),
             ),
@@ -70,10 +70,10 @@ class _DesktopPortfolioPageState extends State<DesktopPortfolioPage> {
                 SizedBox(
                   height: 60,
                 ),
-                workShowCaseImages(0.6 * height, 0.4 * width, kWorkImageUrl4),
-                SizedBox(
-                  height: 60,
-                ),
+                // workShowCaseImages(0.6 * height, 0.4 * width, kWorkImageUrl4),
+                // SizedBox(
+                //   height: 60,
+                // ),
               ],
             ),
           ),
@@ -115,10 +115,10 @@ class _TabletPorfolioPageState extends State<TabletPortfolioPage> {
                 SizedBox(
                   height: 20,
                 ),
-                workShowCaseImages(400, 0.4 * width, kWorkImageUrl2),
-                SizedBox(
-                  height: 30,
-                ),
+                // workShowCaseImages(400, 0.4 * width, kWorkImageUrl2),
+                // SizedBox(
+                //   height: 30,
+                // ),
                 viewAllWorkButtonWidget()
               ]),
             ),
@@ -142,10 +142,10 @@ class _TabletPorfolioPageState extends State<TabletPortfolioPage> {
                 SizedBox(
                   height: 20,
                 ),
-                workShowCaseImages(400, 0.4 * width, kWorkImageUrl4),
-                SizedBox(
-                  height: 20,
-                ),
+                // workShowCaseImages(400, 0.4 * width, kWorkImageUrl4),
+                // SizedBox(
+                //   height: 20,
+                // ),
               ],
             ),
           ),
@@ -192,10 +192,10 @@ class _MobilePortfolioPageState extends State<MobilePortfolioPage> {
             SizedBox(
               height: 20,
             ),
-            workShowCaseImages(350, 1 * width, kWorkImageUrl4),
-            SizedBox(
-              height: 20,
-            ),
+            // workShowCaseImages(350, 1 * width, kWorkImageUrl4),
+            // SizedBox(
+            //   height: 20,
+            // ),
             viewAllWorkButtonWidget()
             //workShowCaseImages(0.3 * height, 1 * width, 'lib/images/crypto.png'),
           ],
