@@ -10,7 +10,7 @@ final String kContact = "Contact";
 //final Strings used for about page
 final String kHello = 'Hello,';
 final String kName = "I'm Gabriel Sotelo";
-final String kDescription = 'CS Student & Tech Enthusiast';
+final String kDescription = 'CS Student, Sofware Developer, & AI Enthusiast';
 final String kProfileImageURL =
     'lib/images/myImage.jpg'; //bundling an optimized image for better performance
 
@@ -19,20 +19,20 @@ final String kWhatIdo = 'What I\'m doing';
 final String kCard1title = 'CoRe Peer Leader';
 final String kCard2title = 'President of A.I. Club';
 final String kCard3title = 'Teaching Assistant';
-final String kCard4title = 'Incoming SWE Intern';
+final String kCard4title = 'SWE Intern';
 final String kCard5title = 'SpartaHack Organizer';
 final String kWhoIam = 'Who I Am';
 final String kWhoIamDetails =
-    'Computer Science Student at Michigan State University. Tech & AI enthusiast. Aspiring full-stack developer. Untiringly endeavoring to enjoy and excel in all I think and do for 19 years.';
+    'Software Engineer Intern at Microsoft and Computer Science student at Michigan State University. Aspiring AI Engineer. Untiringly endeavoring to enjoy and excel in all I think and do for 19 years.';
 
 final String kCard1Descrption =
     'Supporting the academic, social, and professional success of first-year engineers.';
 final String kCard2Descrption =
-    'Creating an environment for the learning and application of thrilling concepts in Artificial Intelligence.';
+    'Leading Michigan State University\'s hub for the learning and application of Artificial Intelligence.';
 final String kCard3Descrption =
     'Assisting in the foundational learning of Python for the largest Computer Science class at MSU.';
 final String kCard4Descrption =
-    '(Will be) Working as a Software Engineer Intern in the Experiences & Devices Team at Microsoft.';
+    'Working as a Software Engineer Intern in the Surface Quality Team at Microsoft.';
 final String kCard5Descrption =
     'Working on the organization of MSU\'s Hackathon and the backend development of its application.';
 
