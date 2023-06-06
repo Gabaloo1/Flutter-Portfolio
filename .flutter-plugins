@@ -1,11 +1,13 @@
 # This is a generated file; do not edit or check into version control.
-integration_test=C:\\Users\\Gabriel Sotelo Justo\\flutter\\packages\\integration_test\\
-path_provider=C:\\Users\\Gabriel Sotelo Justo\\flutter\\.pub-cache\\hosted\\pub.dartlang.org\\path_provider-1.6.27\\
-path_provider_linux=C:\\Users\\Gabriel Sotelo Justo\\flutter\\.pub-cache\\hosted\\pub.dartlang.org\\path_provider_linux-0.0.1+2\\
-path_provider_macos=C:\\Users\\Gabriel Sotelo Justo\\flutter\\.pub-cache\\hosted\\pub.dartlang.org\\path_provider_macos-0.0.4+8\\
-path_provider_windows=C:\\Users\\Gabriel Sotelo Justo\\flutter\\.pub-cache\\hosted\\pub.dartlang.org\\path_provider_windows-0.0.4+3\\
-url_launcher=C:\\Users\\Gabriel Sotelo Justo\\flutter\\.pub-cache\\hosted\\pub.dartlang.org\\url_launcher-5.7.10\\
-url_launcher_linux=C:\\Users\\Gabriel Sotelo Justo\\flutter\\.pub-cache\\hosted\\pub.dartlang.org\\url_launcher_linux-0.0.1+4\\
-url_launcher_macos=C:\\Users\\Gabriel Sotelo Justo\\flutter\\.pub-cache\\hosted\\pub.dartlang.org\\url_launcher_macos-0.0.1+9\\
-url_launcher_web=C:\\Users\\Gabriel Sotelo Justo\\flutter\\.pub-cache\\hosted\\pub.dartlang.org\\url_launcher_web-0.1.5+1\\
-url_launcher_windows=C:\\Users\\Gabriel Sotelo Justo\\flutter\\.pub-cache\\hosted\\pub.dartlang.org\\url_launcher_windows-0.0.1+3\\
+integration_test=C:\\src\\flutter\\packages\\integration_test\\
+path_provider=C:\\Users\\gabri\\AppData\\Local\\Pub\\Cache\\hosted\\pub.dev\\path_provider-2.0.11\\
+path_provider_android=C:\\Users\\gabri\\AppData\\Local\\Pub\\Cache\\hosted\\pub.dev\\path_provider_android-2.0.9\\
+path_provider_ios=C:\\Users\\gabri\\AppData\\Local\\Pub\\Cache\\hosted\\pub.dev\\path_provider_ios-2.0.11\\
+path_provider_linux=C:\\Users\\gabri\\AppData\\Local\\Pub\\Cache\\hosted\\pub.dev\\path_provider_linux-2.1.11\\
+path_provider_macos=C:\\Users\\gabri\\AppData\\Local\\Pub\\Cache\\hosted\\pub.dev\\path_provider_macos-2.0.3\\
+path_provider_windows=C:\\Users\\gabri\\AppData\\Local\\Pub\\Cache\\hosted\\pub.dev\\path_provider_windows-2.1.6\\
+url_launcher=C:\\Users\\gabri\\AppData\\Local\\Pub\\Cache\\hosted\\pub.dev\\url_launcher-5.7.10\\
+url_launcher_linux=C:\\Users\\gabri\\AppData\\Local\\Pub\\Cache\\hosted\\pub.dev\\url_launcher_linux-0.0.1+4\\
+url_launcher_macos=C:\\Users\\gabri\\AppData\\Local\\Pub\\Cache\\hosted\\pub.dev\\url_launcher_macos-0.0.1+9\\
+url_launcher_web=C:\\Users\\gabri\\AppData\\Local\\Pub\\Cache\\hosted\\pub.dev\\url_launcher_web-0.1.5+3\\
+url_launcher_windows=C:\\Users\\gabri\\AppData\\Local\\Pub\\Cache\\hosted\\pub.dev\\url_launcher_windows-0.0.1+3\\

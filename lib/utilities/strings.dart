@@ -12,34 +12,34 @@ final String kHello = 'Hello,';
 final String kName = "I'm Gabriel Sotelo";
 final String kDescription = 'CS Student, Sofware Developer, & AI Enthusiast';
 final String kProfileImageURL =
-    'lib/images/myImage.jpg'; //bundling an optimized image for better performance
+    'lib/images/myImage.png'; //bundling an optimized image for better performance
 
 //final Strings for services page
 final String kWhatIdo = 'What I\'m doing';
 final String kCard1title = 'CoRe Peer Leader';
 final String kCard2title = 'President of A.I. Club';
 final String kCard3title = 'Teaching Assistant';
-final String kCard4title = 'SWE Intern';
-final String kCard5title = 'SpartaHack Organizer';
+final String kCard4title = 'Software Engineer';
+final String kCard5title = 'SpartaHack Director';
 final String kWhoIam = 'Who I Am';
 final String kWhoIamDetails =
-    'Software Engineer Intern at Microsoft and Computer Science student at Michigan State University. Aspiring AI Engineer. Untiringly endeavoring to enjoy and excel in all I think and do for 19 years.';
+    'Software Engineer Intern at Microsoft and Computer Science student at Michigan State University. Aspiring AI Engineer. Untiringly endeavoring to enjoy and excel in all I think and do for 20 years.';
 
 final String kCard1Descrption =
     'Supporting the academic, social, and professional success of first-year engineers.';
 final String kCard2Descrption =
     'Leading Michigan State University\'s hub for the learning and application of Artificial Intelligence.';
 final String kCard3Descrption =
-    'Assisting in the foundational learning of Python for the largest Computer Science class at MSU.';
+    'Assisting in the teaching of algorithms and data structures to Computer Science students at MSU.';
 final String kCard4Descrption =
-    'Working as a Software Engineer Intern in the Surface Quality Team at Microsoft.';
+    'Working as a Software Engineer Intern in the Gaming AI team at Xbox - Microsoft.';
 final String kCard5Descrption =
-    'Working on the organization of MSU\'s Hackathon and the backend development of its application.';
+    'Director of the organization of Michigan State\'s signature hackathon: SpartaHack.';
 
 final String kCard1URL = 'https://core.egr.msu.edu/';
 final String kCard2URL = 'https://msuaiclub.com/';
-final String kCard3URL = 'https://www.cse.msu.edu/~cse231/';
-final String kCard4URL = 'https://microsoft.com/';
+final String kCard3URL = 'https://www.cse.msu.edu/';
+final String kCard4URL = 'https://www.xbox.com/';
 final String kCard5URL = 'https://spartahack.com/';
 
 final String kDownloadCV = 'See my Résumé';

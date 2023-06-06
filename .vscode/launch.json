@@ -7,7 +7,7 @@
             "type": "dart",
             "args": [
                 "-d",
-                "chrome"
+                "edge"
             ]
         }
     ]
