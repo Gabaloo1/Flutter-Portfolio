@@ -1,8 +1,7 @@
-import 'dart:ui';
 import 'package:flutter/material.dart';
 import 'package:portfolio_app/utilities/strings.dart';
 import 'package:portfolio_app/widgets/icon_widgets.dart';
-import 'package:url_launcher/url_launcher.dart';
+import 'package:url_launcher/url_launcher_string.dart';
 
 class AboutPage extends StatelessWidget {
   @override
@@ -96,8 +95,8 @@ class _MobileAboutMeState extends State<MobileAboutMe> {
                 ),
                 onPressed: () async {
                   final url = kCvUrl;
-                  if (await canLaunch(url)) {
-                    await launch(url);
+                  if (await canLaunchUrlString(url)) {
+                    await launchUrlString(url);
                   } else {
                     throw 'Could not launch $url';
                   }
@@ -263,8 +262,8 @@ Widget stackedWidgets(double height, double width) {
               ),
               onPressed: () async {
                 final url = kCvUrl;
-                if (await canLaunch(url)) {
-                  await launch(url);
+                if (await canLaunchUrlString(url)) {
+                  await launchUrlString(url);
                 } else {
                   throw 'Could not launch $url';
                 }
@@ -288,7 +287,7 @@ Widget stackedWidgets(double height, double width) {
 }
 
 //tablet view code simplification
-Widget tabletViewWidget(double width, double height) {
+Widget tabletViewWidget(double width, double? height) {
   return Container(
       padding: EdgeInsets.only(left: 0.02 * width, right: 0.02 * width),
       // height: height,
@@ -327,8 +326,8 @@ Widget tabletViewWidget(double width, double height) {
               ),
               onPressed: () async {
                 final url = kCvUrl;
-                if (await canLaunch(url)) {
-                  await launch(url);
+                if (await canLaunchUrlString(url)) {
+                  await launchUrlString(url);
                 } else {
                   throw 'Could not launch $url';
                 }

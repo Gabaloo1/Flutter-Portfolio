@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:portfolio_app/utilities/strings.dart';
-import 'package:url_launcher/url_launcher.dart';
+import 'package:url_launcher/url_launcher_string.dart';
 
 class PortfolioPage extends StatelessWidget {
   @override
@@ -25,8 +25,8 @@ class DesktopPortfolioPage extends StatefulWidget {
 }
 
 class _DesktopPortfolioPageState extends State<DesktopPortfolioPage> {
-  var width;
-  var height;
+  late var width;
+  late var height;
   @override
   Widget build(BuildContext context) {
     width = MediaQuery.of(context).size.width;
@@ -184,11 +184,11 @@ class _MobilePortfolioPageState extends State<MobilePortfolioPage> {
             SizedBox(
               height: 30,
             ),
-            workShowCaseImages(350, 1 * width, kWorkImageUrl1),
+            workShowCaseImages(350, 1 * width as double, kWorkImageUrl1),
             SizedBox(
               height: 20,
             ),
-            workShowCaseImages(350, 1 * width, kWorkImageUrl3),
+            workShowCaseImages(350, 1 * width as double, kWorkImageUrl3),
             SizedBox(
               height: 20,
             ),
@@ -240,8 +240,8 @@ Widget viewAllWorkButtonWidget() {
       ),
       onPressed: () async {
         final url = kViewAllWorkLink;
-        if (await canLaunch(url)) {
-          await launch(url);
+        if (await canLaunchUrlString(url)) {
+          await launchUrlString(url);
         } else {
           throw 'Could not launch $url';
         }

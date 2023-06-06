@@ -15,21 +15,21 @@ class HomePage extends StatefulWidget {
 }
 
 class _HomePageState extends State<HomePage> {
-  var utilityProvider;
+  late var utilityProvider;
   var width;
   var height;
 
   //portfolio images
-  Image myProfileImage;
-  Image uiIconImage;
-  Image mobileIconImage;
-  Image webIconImage;
+  late Image myProfileImage;
+  late Image uiIconImage;
+  late Image mobileIconImage;
+  late Image webIconImage;
 
   //work images
-  Image work1Image;
-  Image work2Image;
-  Image work3Image;
-  Image work4Image;
+  late Image work1Image;
+  late Image work2Image;
+  late Image work3Image;
+  late Image work4Image;
 
   bool isSplashVisible = true;
   final List pageList = [

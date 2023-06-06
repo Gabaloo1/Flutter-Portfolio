@@ -19,8 +19,8 @@ class PortfolioApp extends StatefulWidget {
 }
 
 class _PortfolioAppState extends State<PortfolioApp> {
-  double deviceWidth;
-  double deviceHeight;
+  double? deviceWidth;
+  double? deviceHeight;
 
   @override
   Widget build(BuildContext context) {

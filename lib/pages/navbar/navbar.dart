@@ -27,8 +27,8 @@ class DesktopNavbar extends StatefulWidget {
 }
 
 class _DesktopNavbarState extends State<DesktopNavbar> {
-  var utilityProvider;
-  ScrollController scrollController;
+  late var utilityProvider;
+  ScrollController? scrollController;
 
   @override
   Widget build(BuildContext context) {
@@ -53,8 +53,8 @@ class MobileNavbar extends StatefulWidget {
 }
 
 class _MobileNavbarState extends State<MobileNavbar> {
-  var utilityProvider;
-  ScrollController scrollController;
+  late var utilityProvider;
+  ScrollController? scrollController;
 
   @override
   Widget build(BuildContext context) {
@@ -117,34 +117,34 @@ Widget websiteIcon() {
   );
 }
 
-Widget navBarItems(ScrollController scrollController) {
+Widget navBarItems(ScrollController? scrollController) {
   return Row(
     // mainAxisSize: MainAxisSize.max,
     mainAxisAlignment: MainAxisAlignment.spaceEvenly,
     children: [
       navBarOptions(kAbout, 1, () {
-        scrollController.animateTo(
+        scrollController!.animateTo(
           scrollController.position.minScrollExtent + 120,
           duration: Duration(seconds: 1),
           curve: Curves.ease,
         );
       }),
       navBarOptions(kServices, 2, () {
-        scrollController.animateTo(
+        scrollController!.animateTo(
           0.30 * scrollController.position.maxScrollExtent,
           duration: Duration(seconds: 2),
           curve: Curves.ease,
         );
       }),
       navBarOptions(kPortfolio, 3, () {
-        scrollController.animateTo(
+        scrollController!.animateTo(
           0.78 * scrollController.position.maxScrollExtent,
           duration: Duration(seconds: 2),
           curve: Curves.ease,
         );
       }),
       navBarOptions(kContact, 4, () {
-        scrollController.animateTo(
+        scrollController!.animateTo(
           1 * scrollController.position.maxScrollExtent,
           duration: Duration(seconds: 2),
           curve: Curves.ease,
@@ -156,7 +156,7 @@ Widget navBarItems(ScrollController scrollController) {
 
 Widget navBarOptions(String title, int position, Function function) {
   return InkWell(
-    onTap: function,
+    onTap: function as void Function()?,
     // hoverColor: Colors.grey[200],
     borderRadius: BorderRadius.circular(16),
     child: Container(

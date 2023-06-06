@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:portfolio_app/utilities/strings.dart';
-import 'package:url_launcher/url_launcher.dart';
+import 'package:url_launcher/url_launcher_string.dart';
 
 Widget iconWidget(String iconName) {
   if (iconName == 'linkedin') {
@@ -46,8 +46,8 @@ Widget iconWidget(String iconName) {
 
 launchUrl(String obtainedUrl) async {
   final String url = obtainedUrl;
-  if (await canLaunch(url)) {
-    await launch(url);
+  if (await canLaunchUrlString(url)) {
+    await launchUrlString(url);
   } else {
     throw 'Could not launch $url';
   }

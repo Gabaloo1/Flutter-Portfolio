@@ -3,7 +3,7 @@ import 'package:portfolio_app/providers/utility_provider.dart';
 import 'package:portfolio_app/utilities/strings.dart';
 import 'package:portfolio_app/widgets/icon_widgets.dart';
 import 'package:provider/provider.dart';
-import 'package:url_launcher/url_launcher.dart';
+import 'package:url_launcher/url_launcher_string.dart';
 
 class ServicesPage extends StatelessWidget {
   @override
@@ -334,8 +334,8 @@ Widget whatIDoCard(
     String title,
     String description,
     String cardUrl,
-    double devWidth,
-    double devHeight,
+    double? devWidth,
+    double? devHeight,
     double cardWidth,
     double cardHeight,
     double cardTitleTextSize,
@@ -343,8 +343,8 @@ Widget whatIDoCard(
   return InkWell(
       onTap: () async {
         final url = cardUrl;
-        if (await canLaunch(url)) {
-          await launch(url);
+        if (await canLaunchUrlString(url)) {
+          await launchUrlString(url);
         } else {
           throw 'Could not launch $url';
         }
@@ -458,8 +458,8 @@ Widget whoIamDetailsWidget(double spaceAfterCards) {
                 ),
                 onPressed: () async {
                   final url = kCvUrl;
-                  if (await canLaunch(url)) {
-                    await launch(url);
+                  if (await canLaunchUrlString(url)) {
+                    await launchUrlString(url);
                   } else {
                     throw 'Could not launch $url';
                   }
@@ -479,13 +479,13 @@ Widget whoIamDetailsWidget(double spaceAfterCards) {
   );
 }
 
-Widget whatIdoCardMobile(double height, double width, Color color,
+Widget whatIdoCardMobile(double? height, double? width, Color color,
     String imagePath, String title, String description, String cardUrl) {
   return InkWell(
       onTap: () async {
         final url = cardUrl;
-        if (await canLaunch(url)) {
-          await launch(url);
+        if (await canLaunchUrlString(url)) {
+          await launchUrlString(url);
         } else {
           throw 'Could not launch $url';
         }

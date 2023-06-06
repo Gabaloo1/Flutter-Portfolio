@@ -29,9 +29,9 @@ class DesktopContactPage extends StatefulWidget {
 class _DesktopContactPageState extends State<DesktopContactPage> {
   var width;
   var height;
-  var utilityProvider;
+  late var utilityProvider;
   var themeProvider;
-  ScrollController scrollController;
+  ScrollController? scrollController;
 
   @override
   Widget build(BuildContext context) {
@@ -82,9 +82,9 @@ class TabletContactPage extends StatefulWidget {
 class _TabletContactPageState extends State<TabletContactPage> {
   var width;
   var height;
-  var utilityProvider;
+  late var utilityProvider;
   var themeProvider;
-  ScrollController scrollController;
+  ScrollController? scrollController;
   @override
   Widget build(BuildContext context) {
     width = MediaQuery.of(context).size.width;
@@ -134,9 +134,9 @@ class MobileContactPage extends StatefulWidget {
 class _MobileContactPageState extends State<MobileContactPage> {
   var width;
   var height;
-  var utilityProvider;
+  late var utilityProvider;
   var themeProvider;
-  ScrollController scrollController;
+  ScrollController? scrollController;
   @override
   Widget build(BuildContext context) {
     width = MediaQuery.of(context).size.width;
@@ -209,7 +209,7 @@ Widget emailContactWidget(double height, double width, double sayHelloFontSize,
 }
 
 Widget footerWidget(
-    ThemeProvider themeProvider, ScrollController scrollController) {
+    ThemeProvider? themeProvider, ScrollController? scrollController) {
   return Container(
     height: 100,
     color: Colors.grey.withOpacity(0.1),
@@ -248,11 +248,11 @@ Widget footerWidget(
                   IconButton(
                       icon: Icon(Icons.brightness_4),
                       onPressed: () async {
-                        await scrollController.animateTo(
+                        await scrollController!.animateTo(
                             scrollController.position.minScrollExtent,
                             duration: Duration(seconds: 1),
                             curve: Curves.ease);
-                        themeProvider.toggleTheme();
+                        themeProvider!.toggleTheme();
                       }),
                 ],
               ),
@@ -278,13 +278,13 @@ Widget iconBarWidget() {
   );
 }
 
-Widget websiteIcon(ScrollController scrollController) {
+Widget websiteIcon(ScrollController? scrollController) {
   return InkWell(
     splashColor: Colors.transparent,
     hoverColor: Colors.transparent,
     highlightColor: Colors.transparent,
     onTap: () async {
-      await scrollController.animateTo(
+      await scrollController!.animateTo(
           scrollController.position.minScrollExtent,
           duration: Duration(seconds: 1),
           curve: Curves.ease);
@@ -329,13 +329,13 @@ Widget websiteIcon(ScrollController scrollController) {
   );
 }
 
-Widget navBarItems(ScrollController scrollController) {
+Widget navBarItems(ScrollController? scrollController) {
   return Row(
     // mainAxisSize: MainAxisSize.max,
     mainAxisAlignment: MainAxisAlignment.center,
     children: [
       navBarOptions(kAbout, 1, () {
-        scrollController.animateTo(
+        scrollController!.animateTo(
           scrollController.position.minScrollExtent,
           duration: Duration(seconds: 1),
           curve: Curves.ease,
@@ -345,7 +345,7 @@ Widget navBarItems(ScrollController scrollController) {
         width: 40,
       ),
       navBarOptions(kServices, 2, () {
-        scrollController.animateTo(
+        scrollController!.animateTo(
           0.25 * scrollController.position.maxScrollExtent,
           duration: Duration(seconds: 2),
           curve: Curves.ease,
@@ -355,7 +355,7 @@ Widget navBarItems(ScrollController scrollController) {
         width: 40,
       ),
       navBarOptions(kPortfolio, 3, () {
-        scrollController.animateTo(
+        scrollController!.animateTo(
           0.65 * scrollController.position.maxScrollExtent,
           duration: Duration(seconds: 2),
           curve: Curves.ease,
@@ -365,7 +365,7 @@ Widget navBarItems(ScrollController scrollController) {
         width: 40,
       ),
       navBarOptions(kContact, 4, () {
-        scrollController.animateTo(
+        scrollController!.animateTo(
           1 * scrollController.position.maxScrollExtent,
           duration: Duration(seconds: 2),
           curve: Curves.ease,
@@ -377,7 +377,7 @@ Widget navBarItems(ScrollController scrollController) {
 
 Widget navBarOptions(String title, int position, Function function) {
   return InkWell(
-    onTap: function,
+    onTap: function as void Function()?,
     //hoverColor: Colors.grey[200],
     borderRadius: BorderRadius.circular(16),
     child: Container(
